@@ -1,0 +1,391 @@
+Using username "830354146".
+830354146@heracles.ucdenver.pvt's password:
+Last login: Thu Mar 10 19:56:11 2022 from 10.4.4.65
+[830354146@heracles ~]$ ./lab2 1000 1 1
+-bash: ./lab2: No such file or directory
+[830354146@heracles ~]$ cd csc5593
+[830354146@heracles csc5593]$ ./lab2 1000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 3.45 seconds
+[830354146@heracles csc5593]$ ./lab2 1000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 3.30 seconds
+[830354146@heracles csc5593]$ ./lab2 2000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 31.82 seconds
+[830354146@heracles csc5593]$ ./lab2 3000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 119.43 seconds
+[830354146@heracles csc5593]$ ./lab2 4000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 294.32 seconds
+[830354146@heracles csc5593]$ ./lab2 5000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 570.09 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/kerry/csc5593/lab2 8 1
+bash: /home/kerry/csc5593/lab2: No such file or directory
+[830354146@heracles csc5593]$ ssh node8 lab2 8 1
+bash: lab2: command not found
+[830354146@heracles csc5593]$ ssh node8 ./lab2 8 1
+bash: ./lab2: No such file or directory
+[830354146@heracles csc5593]$ cd ..
+[830354146@heracles ~]$ cd csc5593
+[830354146@heracles csc5593]$ ssh node8 ./mm1.cpp 8 1
+bash: ./mm1.cpp: No such file or directory
+[830354146@heracles csc5593]$ ssh node8 mm1.cpp 8 1
+bash: mm1.cpp: command not found
+[830354146@heracles csc5593]$ ssh node8 mm1.cpp 8 1
+bash: mm1.cpp: command not found
+[830354146@heracles csc5593]$ ssh node8 mm1 8 1
+bash: mm1: command not found
+[830354146@heracles csc5593]$ cd ..
+[830354146@heracles ~]$ ssh node8 /csc5593/mm1 8 1
+bash: /csc5593/mm1: No such file or directory
+[830354146@heracles ~]$ ssh node8 csc5593/mm1 8 1
+bash: csc5593/mm1: No such file or directory
+[830354146@heracles ~]$ ssh node8 /csc5593/mm1.cpp 8 1
+bash: /csc5593/mm1.cpp: No such file or directory
+[830354146@heracles ~]$ ssh node8 csc5593/mm1.cpp 8 1
+bash: csc5593/mm1.cpp: Permission denied
+[830354146@heracles ~]$ ^C
+[830354146@heracles ~]$ ssh node8 home/830354146/csc5593/mm1.cpp 8 1
+bash: home/830354146/csc5593/mm1.cpp: No such file or directory
+[830354146@heracles ~]$ ^C
+[830354146@heracles ~]$ ssh node8 /home/830354146/csc5593/mm1.cpp 8 1
+bash: /home/830354146/csc5593/mm1.cpp: Permission denied
+[830354146@heracles ~]$ ssh node8 /home/830354146/csc5593/mm1 8 1
+bash: /home/830354146/csc5593/mm1: No such file or directory
+[830354146@heracles ~]$ ssh node8 /home/830354146/csc5593/lab2 8 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.00 seconds
+[830354146@heracles ~]$ cd csc5593
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 1000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 3.22 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 2000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 29.29 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 3000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 112.32 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 4000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 270.04 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 5000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 533.97 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 1000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 1.18 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 2000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 9.58 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 3000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 34.42 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 4000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 81.39 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 5000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 158.70 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 1000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.17 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 2000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 1.77 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 3000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 6.17 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 4000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 15.57 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 5000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 30.00 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 1000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.16 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 2000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.84 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 3000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 2.76 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 4000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 6.48 seconds
+[830354146@heracles csc5593]$ ssh node8 /home/830354146/csc5593/lab2 5000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 12.62 seconds
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 1000 1 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 3.21 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 1000 1 1':
+
+            86,396      cache-misses                                            
+
+       3.235020311 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 1000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 3.22 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 1000 1 0':
+
+            86,901      cache-misses                                            
+
+       3.239521361 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 2000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 30.10 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 2000 1 0':
+
+       330,444,292      cache-misses                                            
+
+      30.173437860 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 3000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 112.14 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 3000 1 0':
+
+     3,379,369,702      cache-misses                                            
+
+     112.269338671 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 4000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 270.13 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 4000 1 0':
+
+     8,015,828,002      cache-misses                                            
+
+     270.325805346 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 5000 1 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 533.82 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 5000 1 0':
+
+    15,644,324,445      cache-misses                                            
+
+     534.102973730 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 1000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 1.21 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 1000 2 0':
+
+            81,855      cache-misses                                            
+
+       1.233761600 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 2000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 9.62 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 2000 2 0':
+
+       222,758,757      cache-misses                                            
+
+       9.685853497 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 3000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 34.37 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 3000 2 0':
+
+     3,166,918,172      cache-misses                                            
+
+      34.498708118 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 4000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 81.75 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 4000 2 0':
+
+     7,523,154,145      cache-misses                                            
+
+      81.948439430 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 5000 2 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 158.89 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 5000 2 0':
+
+    14,697,677,586      cache-misses                                            
+
+     159.177486294 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 5000 2 1
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 158.87 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 5000 2 1':
+
+    14,693,714,186      cache-misses                                            
+
+     159.155488160 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 1000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.17 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 1000 3 0':
+
+           453,411      cache-misses                                            
+
+       0.191854708 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 2000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 1.76 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 2000 3 0':
+
+        20,307,208      cache-misses                                            
+
+       1.835504271 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 3000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 6.00 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 3000 3 0':
+
+       167,620,855      cache-misses                                            
+
+       6.123858682 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 4000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 15.83 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 4000 3 0':
+
+       376,210,217      cache-misses                                            
+
+      16.023215107 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 5000 3 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 29.94 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 5000 3 0':
+
+       695,699,224      cache-misses                                            
+
+      30.245611847 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 1000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.14 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 1000 4 0':
+
+           471,962      cache-misses                                            
+
+       0.162281647 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 2000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 0.84 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 2000 4 0':
+
+        23,721,035      cache-misses                                            
+
+       0.916239081 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 3000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 2.73 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 3000 4 0':
+
+       229,925,013      cache-misses                                            
+
+       2.858154869 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 4000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 6.46 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 4000 4 0':
+
+       845,622,086      cache-misses                                            
+
+       6.659436115 seconds time elapsed
+
+[830354146@heracles csc5593]$ ssh node8 perf stat -e cache-misses /home/830354146/csc5593/lab2 5000 4 0
+I have 48 logical cores.
+OpenMP with 48 threads
+Program runs in 12.62 seconds
+
+ Performance counter stats for '/home/830354146/csc5593/lab2 5000 4 0':
+
+     2,412,843,386      cache-misses                                            
+
+      12.912974042 seconds time elapsed
+
+[830354146@heracles csc5593]$
